@@ -1,0 +1,387 @@
+.diamond-area{
+	text-align: center;
+	margin-bottom: 96px;
+	margin-top: 75px;
+}
+.diamond-area h1{
+	font-size: 17px;
+	color: #525151;
+	font-weight: bold;	
+}
+.diamond-area p{
+	color: #716f6f;
+	font-size: 13px;
+	line-height: 22px;
+}
+.bg{
+	padding-bottom: 126px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url("../img/bg1.jpg");
+}
+
+.bg h1{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	line-height: 55px;
+	padding-top: 125px;
+	padding-bottom: 65px;
+}
+.button,.buttons{
+	margin-bottom: 7px;
+	border-radius: 8px;
+	text-align: center;
+	display: inline-block;
+	background-color: #86b45c;
+}
+.button a,.buttons a{
+	line-height: 40px;
+	width: 250px;
+	height: 40px;
+	display: block;
+	color: white;
+	font-size: 15px;	
+}
+.button a i,.buttons a i{
+	margin-right: 8px;
+}
+.buttons a{
+	background-color: white;
+	color: #94c766;
+}
+.repeat-head{
+	padding-top: 84px;
+	text-align: center;
+}
+.repeat-head h1{
+	color: #4b4a36;
+	font-size: 25px;
+	margin-bottom: 15px; 
+}
+.repeat-head p{
+	color: #797878;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.bdr{
+	width: 150px;
+	height: 7px;
+	background-color: #94c766;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 52px;
+}
+.f-area{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.f-area ul li{
+	padding: 10px 30px;
+	border: 2px solid #94c766;
+	margin-right: 19px;
+	display: inline-block;
+	background-color: #94c766;
+}
+.f-area ul li a{
+	font-size: 13px;
+	font-weight: bold;
+	color: white;
+}
+.f-area ul li.active,.f-area ul li a.active{
+	background-color: white;
+	color: #81e814;
+}
+.f-area ul li:hover{
+	transition: all .9s ease-in-out;
+	background-color: #ffffff; 
+}
+.f-area ul li a:hover{
+	transition: all .9s ease-in-out;
+	color: #94c766;
+}
+.pics img{
+	width: 100%;
+}
+.e-commerce h4{
+	font-size: 12px;
+}
+.e-commerce ul{
+	padding: 0;
+}
+.e-commerce ul li{
+	padding-bottom: 125px;
+	display: inline-block;
+}
+.e-commerce ul li a{
+	color: #666666;
+	margin-right: 18px;
+}
+.no-padding{
+	padding: 0;
+}
+.bag-clr{
+	margin-top: 96px;
+	background-color: #f6f4f4;
+}
+.pics p{
+	margin-top: 10px;
+	margin-bottom: 40px;
+	line-height: 20px;
+	color: #666666;
+}
+.bg-pic{
+	padding-top: 110px;
+	padding-bottom: 120px;
+	background-size: cover; 
+	background-image: url('../img/bg-2.jpg')
+}
+.work {
+	text-align: center;
+}
+.work i {
+	font-size: 40px;
+	color: #94c766;
+}
+.work h1{
+	font-size: 45px;
+	font-weight: bold;
+	color: #94c766;
+}
+.work p{
+	color: white;
+	font-size: 17px;
+}
+footer{
+	margin-top: 60px;
+	padding-bottom: 52px;
+	padding-top: 60px;
+	background-color: #2f2f2f
+}
+.over{
+	margin-bottom: 87px;
+}
+.over h3{
+	font-size: 16px;
+	font-weight: bold;
+	color: #fefefe;
+	margin-bottom: 13px;
+}
+.over-bd{
+	width: 60px;
+	height: 5px;
+	background-color: #3d3b3b;
+	margin-bottom: 15px;
+}
+.over ul{
+	padding-left: 0;
+}
+.over ul li a{
+	color: #8f8c8c;
+	font-size: 17px;
+	
+}
+.over ul li{
+	line-height: 40px;
+	border-bottom: 2px solid #363434;	
+}
+.over ul li:last-child{
+	border-bottom: none;
+}
+.image h3{
+	font-size: 16px;
+	font-weight: bold;
+	color: #fefefe;
+	margin-bottom: 13px;
+}
+.image ul{
+	padding-left: 0;
+}
+.image ul li{
+	float: left;
+}
+.image ul li a img{
+	margin-bottom: 13px;
+	margin-right: 6px;
+}
+.bor{
+	border-bottom: 2px solid #403e3e;
+	margin-bottom: 42px;
+}
+.span{
+	font-size: 14px;
+	color: #cccccc;
+}
+.contact ul{
+	text-align: right;
+}
+.contact ul li{
+	display: inline-block;
+	margin-left:  16px;
+}
+.contact ul li a{
+	color: #a19f9f;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    width: 100%;
+    height: 600px;
+}
+.navbar-default {
+    background-color: white;
+    border: 0;
+}
+
+/**=================== footer slider =============================**/
+/* jssor slider loading skin spin css */
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+/*=============foot-slider-finished===========================*/
+
+.word{
+	background-color: yellow;
+}
+.word-1 h1{
+	margin-top: 32px;
+	float: left;
+	font-size: 17px;
+	line-height: 32px;
+}
+.word-1 p{
+	border: 1px solid #dedbdb;
+	padding:5px 6px 12px 8px;
+}
+.word-1 ul{
+	float: right;
+}
+.word-1 ul li{
+	margin-top: 25px;
+	display: inline-block;
+}
+.word-1 ul li i{
+	color: #cbc9c9;
+	border: 1px solid #cbc9c9;
+	margin-right: 6px;
+	padding: 2px 8px;
+}
+.word-1 p.edit span{
+	color: green;
+}
+.word-1 p.edit{
+	margin-left: 12px;
+	border: 0;
+}
+.word-1{
+	margin-top: 69px;
+}
+hr.blog{
+	border-top: 2px solid #e9e7e7; 
+}
+hr.blog:before{
+	content: " ";
+	width: 196px;
+	border-top: 2px solid #94c766;
+	position: absolute;
+	margin-top: -2px; 
+}
+.base h1{
+	font-weight: bold;
+	font-size: 20px;
+}
+.base p{
+	color: #666666;
+}
+.base p.col span a{
+	color: #94c766;
+}
+.calender{
+	margin-right: 11px;
+}
+.date{
+	border-radius: 5px 5px 0 0;
+	background-color: #444444;
+	text-align: center;
+	padding: 13px 8px;
+	color: white;
+}
+.file{
+	border-radius:0 0 5px 5px;
+	background-color: #94c766;
+	padding: 13px 11px;
+	text-align: center;
+}
+.file i{
+	color: white;
+}
+hr.wordpress{
+	border-top: 3px solid #e9e7e7;
+}
+hr.wordpress:before{
+	content: " ";
+	width: 200px;
+	margin-top: -3px;
+	position: absolute;
+	border-top: 3px solid #94c766;
+}
+.button{
+	float: right;
+}
+@media only screen and (max-width: 768px){
+	.bg h1{
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.button{
+		float: none;
+	}
+	.button a,.buttons a{
+		display: inline-block;
+		max-width: 221px;
+		height: 40px;
+		line-height: 40px;
+	}
+	.button a,.buttons a{
+		font-size: 14px;
+	}
+	.f-area ul li{
+		margin-bottom: 3px;
+		width: 90%;
+	}
+	.image,.over {
+		margin: 100px auto;
+		width: 50%;
+	}
+	.image img{
+		width: 100%;
+	}
+	.contact ul li{
+		width: 90%;
+		text-align: center;
+		padding-bottom: 8px;
+	}
+	.span{
+		text-align: center;
+	}
+	.over ul li a{
+		display: block;
+		text-align: center;
+	}
+	.word-1 h1{
+		font-size: 12px;
+	}
+}
